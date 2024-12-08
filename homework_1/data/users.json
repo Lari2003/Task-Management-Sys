@@ -1,0 +1,119 @@
+[
+    {
+        "id": 41,
+        "name": "John",
+        "surname": "Doe",
+        "email": "john.doe@example.com",
+        "projects": [
+            {
+                "id": 43,
+                "name": "Project 1",
+                "description": "This is the first project",
+                "deadline": "2024-12-31",
+                "tasks": []
+            },
+            {
+                "id": 45,
+                "name": "Project 3",
+                "description": "This is the third project",
+                "deadline": "2024-10-31",
+                "tasks": []
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "name": "Jane",
+        "surname": "Doe",
+        "email": "jane.doe@exmple.com",
+        "projects": [
+            {
+                "id": 46,
+                "name": "Project 4",
+                "description": "This is the fourth project",
+                "deadline": "2025-01-31",
+                "tasks": []
+            },
+            {
+                "id": 44,
+                "name": "Project 2",
+                "description": "This is the second project",
+                "deadline": "2024-11-30",
+                "tasks": []
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "TESTUSER",
+        "surname": "",
+        "email": "",
+        "projects": [
+            {
+                "id": 1,
+                "name": "project1",
+                "description": "test",
+                "deadline": null,
+                "tasks": [
+                    {
+                        "id": 1,
+                        "name": "task2",
+                        "description": "",
+                        "priority": 4,
+                        "status": "COMPLETED",
+                        "project_id": 1,
+                        "_type": "DevTask",
+                        "language": "c+++"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "project2",
+                "description": "",
+                "deadline": null,
+                "tasks": []
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "user2",
+        "surname": "",
+        "email": "",
+        "projects": [
+            {
+                "id": 1,
+                "name": "project3",
+                "description": "",
+                "deadline": null,
+                "tasks": [
+                    {
+                        "id": 2,
+                        "name": "TEST2",
+                        "description": "",
+                        "priority": 3,
+                        "status": "COMPLETED",
+                        "project_id": 1,
+                        "_type": "DocTask",
+                        "document": "doc"
+                    }
+                ]
+            },
+            {
+                "id": 2,
+                "name": "project4",
+                "description": "",
+                "deadline": null,
+                "tasks": []
+            },
+            {
+                "id": 3,
+                "name": "TESTFLAT",
+                "description": "",
+                "deadline": null,
+                "tasks": []
+            }
+        ]
+    }
+]
